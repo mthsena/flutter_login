@@ -25,6 +25,7 @@ void main() async {
   final authenticationSignupUsecaseFirebase = AuthenticationSignupUsecaseFirebase(authenticationRepositoryFirebase);
   final authenticationSignupStore = AuthenticationSignupStore(authenticationSignupUsecaseFirebase);
 
+  // Main
   runApp(
     MainWidget(
       theme: ThemeDefault.data,
